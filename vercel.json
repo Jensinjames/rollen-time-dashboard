@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXTAUTH_URL": "https://your-production-url.vercel.app",
+    "NODE_ENV": "production"
+  }
+} 
