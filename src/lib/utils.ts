@@ -92,4 +92,4 @@ export function calculateSubcategoryProgress(
     gradient_start_hex: category.gradient_start_hex,
     gradient_end_hex: category.gradient_end_hex,
   };
-} 
+}

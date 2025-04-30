@@ -11,7 +11,7 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import { rootReducer } from './rootReducer';
+import rootReducer, { RootState } from './rootReducer';
 
 const persistConfig = {
   key: 'root',
@@ -35,5 +35,5 @@ export const store = configureStore({
 export const persistor = persistStore(store);
 setupListeners(store.dispatch);
 
-export type RootState = ReturnType<typeof store.getState>;
+export type { RootState };
 export type AppDispatch = typeof store.dispatch; 

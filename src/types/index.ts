@@ -39,4 +39,4 @@ export interface DateRange {
 
 export type TimeRange = 'day' | 'week' | 'month';
 
-export const DAILY_ALLOCATABLE_MINUTES = 420; // 7 hours 
+export const DAILY_ALLOCATABLE_MINUTES = 420; // 7 hours

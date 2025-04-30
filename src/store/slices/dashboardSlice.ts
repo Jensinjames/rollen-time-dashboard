@@ -62,4 +62,4 @@ export const {
   setError,
 } = dashboardSlice.actions;
 
-export default dashboardSlice.reducer; 
+export default dashboardSlice.reducer;
